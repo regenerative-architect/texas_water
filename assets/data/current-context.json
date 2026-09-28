@@ -1,0 +1,38 @@
+{
+  "retrieved": "2026-09-28",
+  "water": {
+    "statePlan": {
+      "fact": "TWDB adopted the 2027 State Water Plan Phase I on July 23, 2026. The proposed Phase II amendment comment period closed September 25, 2026 and adoption was tentatively scheduled for December 2026.",
+      "source": "https://www.twdb.texas.gov/waterplanning/swp/2027/",
+      "grade": "A/C"
+    },
+    "drought": {
+      "fact": "U.S. Drought Monitor data available through Drought.gov were valid September 22, 2026 at build time; drought status is a dated weekly snapshot.",
+      "source": "https://www.drought.gov/states/texas",
+      "grade": "A"
+    }
+  },
+  "broadband": {
+    "bead": {
+      "fact": "Texas BDO reports its BEAD Final Proposal approved December 4, 2025, selecting 22 applicants to serve over 240,000 broadband-serviceable locations and over 2,700 community anchor institutions, with $1.2B federal grant awards and $177M state match; BDO expected projects to begin construction as soon as summer 2026.",
+      "source": "https://comptroller.texas.gov/programs/broadband/funding/bead/",
+      "grade": "A/C"
+    },
+    "mapping": {
+      "fact": "Texas BDO states its public map is useful for coverage and grant planning, while more granular BSL data are available through the FCC National Broadband Map; the BEAD award map is intended to be updated for deployment progress.",
+      "source": "https://comptroller.texas.gov/programs/broadband/outreach/maps/",
+      "grade": "A/C"
+    }
+  },
+  "libraries": {
+    "trystero": {
+      "version": "0.25.3",
+      "source": "https://github.com/dmotz/trystero",
+      "notes": "Default Nostr strategy; alternate MQTT, BitTorrent and IPFS packages use one API. makeAction supports message and request/response patterns. Room password strengthens SDP encryption during discovery. TURN can be configured for networks that cannot establish direct WebRTC."
+    },
+    "webllm": {
+      "source": "https://github.com/mlc-ai/web-llm",
+      "notes": "Browser-local inference using WebGPU with dedicated Web Worker support and model caching."
+    }
+  }
+}

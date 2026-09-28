@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "txos.room.v1",
+  "type": "object",
+  "required": [
+    "roomId",
+    "protocol"
+  ],
+  "properties": {
+    "roomId": {
+      "type": "string"
+    },
+    "protocol": {
+      "const": "txos-collab-v1"
+    },
+    "strategy": {
+      "enum": [
+        "nostr",
+        "mqtt",
+        "torrent",
+        "ipfs",
+        "local"
+      ]
+    }
+  }
+}

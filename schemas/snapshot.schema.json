@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "txos.snapshot.v1",
+  "type": "object",
+  "required": [
+    "schema",
+    "protocol",
+    "createdAt"
+  ],
+  "properties": {
+    "schema": {
+      "const": "txos.snapshot.v1"
+    },
+    "protocol": {
+      "const": "txos-collab-v1"
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  }
+}

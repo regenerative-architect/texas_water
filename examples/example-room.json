@@ -1,0 +1,9 @@
+{
+  "schema": "txos.snapshot.v1",
+  "protocol": "txos-collab-v1",
+  "roomId": "texas-water-example",
+  "projects": [],
+  "tasks": [],
+  "decisions": [],
+  "comments": []
+}

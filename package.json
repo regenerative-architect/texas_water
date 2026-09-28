@@ -1,0 +1,7 @@
+{
+  "name": "texas-water-sovereignty-os",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Static-first Texas Water Sovereignty OS; optional Trystero/WebLLM loaded by browser.",
+  "license": "MIT"
+}
